@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('/img/1044740695_23003946_up.png');
+}
+
+.header {
+  width: 100%;
+  background-color: #2E5C6E;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.header .logo {
+  font-weight: bold;
+}
+
+.header .nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  text-align: left;
+  margin: 200px;
+}
+
+.main-content h1 {
+  font-weight: bold;
+  font-size: 40px; /* Увеличиваем размер текста */
+  position: relative; /* Относительное позиционирование */
+  left: -300px; /* Смещаем текст влево */
+}
+
+.main-content .highlight {
+  color: #2E5C6E;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.video-section {
+  text-align: center;
+}
+
+.video-placeholder {
+  width: 600px;
+  height: 300px;
+
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0000EE;
+  text-decoration: none;
+}
+
+.sidebar {
+  margin: 20px;
+}
+
+.sidebar-content {
+  background-color: #516681;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  height: 200px;
+  color: white;
+  font-weight: bold;
+}
+
+.platform-button {
+  background-color: #6E8BBF;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background-color: #E0E0E0;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.telegram-button {
+  display: inline-flex;
+  align-items: center;
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+
+.telegram-button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
