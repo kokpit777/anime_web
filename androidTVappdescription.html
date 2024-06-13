@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/androidTVappdescription.css">
+    <link rel="js" href="player.js">
+    <title>DinaxAnimeTV</title>
+</head>
+<body>
+  <div class="header">
+    <div class="headerz">
+      <a href="index.html">DinaxSoft</a>
+    </div>
+    <a href="https://github.com/kokpit777/anime_web">github</a>
+</div>
+    <div class="content">
+        <img src="img/app_android_tv-w480.jpg" alt="DinaxError" class="platform-image">
+        <h1>DinaxAnimeTV</h1>
+        <p>Делали на kotlin в android studio в перебивках между ездой на ладе гранте</p>
+        <button class="download-button">Скачать для Android</button>
+    </div>
+
+    <button class="button" onclick="togglePlayer()">Нажмите чтобы попробовать наш удивительный плеер</button>
+
+    <div id="player">
+        <iframe src="//kodik.info/seria/217493/a2f5b0d8e1dd450b2276d7cb6f624614/720p" width="607" height="360" frameborder="0" AllowFullScreen allow="autoplay *; fullscreen *"></iframe>
+    </div>
+
+    <script>
+        function togglePlayer() {
+            var player = document.getElementById('player');
+            if (player.style.display === "none") {
+                player.style.display = "block";
+            } else {
+                player.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>

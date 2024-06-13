@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.header {
+  width: 100%;
+  background-color: #2E5C6E;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.headerz{
+  font-weight: bold;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.content {
+  margin: 20px;
+}
+.content h1 {
+  font-size: 24px;
+  color: black;
+}
+.platform-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+.download-button {
+  background-color: #2E5C6E;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.download-button:hover {
+  background-color: #484fff;
+}
+.source-code-button {
+  background-color: white;
+  color: #d9534f;
+  border: 2px solid #d9534f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.source-code-button:hover {
+  background-color: #f8f8f8;
+}
+#player {
+  display: none;
+  margin-top: 20px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.button:hover {
+  background-color: #0056b3;
+}
